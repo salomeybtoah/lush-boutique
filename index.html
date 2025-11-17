@@ -1,27 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lush Boutique</title>
-  <link rel="stylesheet" href="styles/boutique.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lush Boutique</title>
+    <link rel="stylesheet" href="styles/boutique.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Welcome to Lush Boutique</h1>
-    <p>Your portfolio starts here.</p>
-  </header>
 
-  <main>
-    <section>
-      <h2>Minimal Setup</h2>
-      <p>This is a placeholder page for now.</p>
-      <img src="images/placeholder.jpg" alt="Placeholder Image" style="max-width:300px;">
+    <!-- ===== NAVBAR ===== -->
+    <header>
+    <nav class="navbar">
+        <div class="logo"><a href="index.html">Lush Boutique</a></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+
+            <li class="dropdown">
+                <a href="shop.html">Shop ▼</a>
+                <ul class="dropdown-menu">
+                    <li><a href="shop.html#dresses">Dresses & Nightwear</a></li>
+                    <li><a href="shop.html#jewelry">Jewelry & Accessories</a></li>
+                    <li><a href="shop.html#shoes">Shoes</a></li>
+                    <li><a href="shop.html#bags">Bags & Purses</a></li>
+                    <li><a href="shop.html#new">New Arrivals</a></li>
+                </ul>
+            </li>
+
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+            <li><a href="#" class="icon">🔍</a></li>
+            <li><a href="#" class="icon">🛍</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero">
+        <div class="hero-overlay">
+            <h1>Elevate Your Style with Lush Boutique</h1>
+            <p>Discover curated fashion, accessories, and luxury pieces.</p>
+            <a href="#products" class="cta-button">Shop Now</a>
+        </div>
     </section>
-  </main>
 
-  <footer>
-    <p>&copy; 2025 Lush Boutique</p>
-  </footer>
+    <!-- ===== FEATURED PRODUCTS / COLLECTIONS ===== -->
+    <section id="products" class="products-section">
+        <h2 class="section-title">Our Collections</h2>
+        <div class="products-grid">
+            <div class="product-item">
+                <img src="images/luxury.jfif" alt="Elegant Dress">
+                <h3>Elegant Dresses</h3>
+            </div>
+            <div class="product-item">
+                <img src="images/accessories.jfif" alt="Jewelry">
+                <h3>Jewelry & Accessories</h3>
+            </div>
+            <div class="product-item">
+                <img src="images/shoes1.jpg" alt="Shoes">
+                <h3>Shoes</h3>
+            </div>
+            <div class="product-item">
+                <img src="images/purse.jfif" alt="Bags">
+                <h3>Bags & Purses</h3>
+            </div>
+            <div class="product-item">
+                <img src="images/nightw.jfif" alt="Nightwear">
+                <h3>Nightwear</h3>
+            </div>
+            <div class="product-item">
+                <img src="images/ari.jfif" alt="New Arrivals">
+                <h3>New Arrivals</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT US ===== -->
+    <section class="about-section">
+        <h2 class="section-title">About Lush Boutique</h2>
+        <p>Lush Boutique is your destination for elegant fashion, statement accessories, and curated luxury pieces. We blend style, quality, and sophistication to make every outfit unforgettable.</p>
+    </section>
+
+    <!-- ===== SERVICES / PERKS ===== -->
+    <section class="services-section">
+        <h2 class="section-title">Our Services</h2>
+        <div class="services-grid">
+            <div class="service-item">
+                <h3>Personal Styling</h3>
+                <p>Our experts help you select the perfect outfit for any occasion.</p>
+            </div>
+            <div class="service-item">
+                <h3>Gift Wrapping</h3>
+                <p>Elegant packaging for your purchases, perfect for gifting.</p>
+            </div>
+            <div class="service-item">
+                <h3>Fast Delivery</h3>
+                <p>Quick and secure shipping straight to your doorstep.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Lush Boutique. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#">Instagram</a> | 
+                <a href="#">Facebook</a> | 
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
