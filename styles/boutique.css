@@ -681,6 +681,14 @@ footer a:hover {
     position: relative;
     z-index: 1;
 }
+.about-hero h1 {
+    font-size: 2.5rem;
+    color: #0E4D4D;
+}
+.about-hero p {
+    font-size: 1.2rem;
+    color: #0e4d4d;
+}
 
 /* ===== ABOUT CONTENT ===== */
 .about-content {
